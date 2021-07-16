@@ -1,0 +1,48 @@
+file handling:
+
+open(path_to file, mode)
+
+ex:
+f=open("python.txt","r")
+
+modes:
+       "r": read only
+       "w": write only
+       "r+":  read and write
+       "w+": read and write
+       "b": binary read
+       "a" :Append (we can not write content to the file in between , only append content at the last)
+       "x": creates a new file if it is not exists, if exists than operation fails(i.e exception)
+       "t": open file text mode(by default)
+       "+":read and write
+       
+
+--------------------------------------------------------------------------------------------
+logging:
+      troubleshooting
+      analyze logs
+
+
+****ORDER WISE logging****
+ DEBUG
+INFO
+WARNING (by default it set warning , it starts from here)( and we can change the level manually also)
+ERROR
+CRITICAL
+----------------------------------------------------------------------------------------------
+
+collections :
+      list,tuple,dictonary
+      collections: specialized data structure
+               Counter
+      	namedtuple
+	defaultdict
+	ChainMap
+---------------------------------------------------------------------------------------------
+
+datetime :
+	import datetime
+	datetime.date
+	datetime.time
+	datetime.datetime
+       
